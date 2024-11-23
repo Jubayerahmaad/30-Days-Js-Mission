@@ -3,7 +3,7 @@
 const arrItem = [1, 2 , 3, 4, 5];
 
 let findItem = arrItem.find((item) => item == 4);
-let calculateItem = arrItem.reduce(function(prevItem, currentItem){
+let calculateItem = arrItem.reduce(function(prevItem = 0, currentItem){
     return prevItem + currentItem;
 });
 
